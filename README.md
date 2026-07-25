@@ -1,7 +1,7 @@
 <h1 align="center">🛡️ Cybersecurity Portfolio</h1>
 
 <p align="center">
-A modern cybersecurity portfolio built with Python & Flask to showcase projects, technical skills, certifications, and hands-on learning in cybersecurity.
+A modern cybersecurity portfolio built with Python & Flask to showcase cybersecurity projects, technical skills, certifications, and hands-on learning in a clean, responsive interface.
 </p>
 
 <p align="center">
@@ -28,36 +28,42 @@ A modern cybersecurity portfolio built with Python & Flask to showcase projects,
 
 # 📌 Overview
 
-Cyber Portfolio is a personal cybersecurity portfolio developed using Python and Flask. It highlights cybersecurity projects, technical skills, certifications, and learning progress in a clean and responsive interface.
+Cybersecurity Portfolio is a modern portfolio website developed using **Python** and **Flask** to showcase cybersecurity projects, technical skills, certifications, and practical learning.
 
-The portfolio serves as a central place where recruiters and professionals can explore my practical cybersecurity work and technical background.
+The portfolio serves as a central hub where recruiters and cybersecurity professionals can explore my work, projects, GitHub repositories, and professional profile.
 
 ---
 
 # ✨ Features
 
 - ✅ Responsive Portfolio Design
-- ✅ Cybersecurity Projects Showcase
-- ✅ Technical Skills Section
-- ✅ Certifications Section
+- ✅ Modern Cybersecurity User Interface
 - ✅ About Me Section
+- ✅ Technical Skills Showcase
+- ✅ Featured Cybersecurity Projects
+- ✅ Certifications Section
+- ✅ Resume Download
 - ✅ Contact Information
-- ✅ Modern & Clean User Interface
-- ✅ Built with Python & Flask
+- ✅ GitHub & LinkedIn Integration
+- ✅ Built using Python & Flask
 
 ---
 
 # 📸 Screenshots
 
-### 🏠 Home Page
+## 🏠 Home Page
 
 ![Home](screenshots/home.png)
 
-### 💼 Projects Section
+---
+
+## 💼 Projects Section
 
 ![Projects](screenshots/projects.png)
 
-### 📞 Contact Section
+---
+
+## 📞 Contact Section
 
 ![Contact](screenshots/contact.png)
 
@@ -73,6 +79,65 @@ The portfolio serves as a central place where recruiters and professionals can e
 
 ---
 
+# 📚 Learning Focus
+
+- Security Operations Center (SOC)
+- Application Security
+- Linux
+- Networking
+- Python Automation
+- OWASP Top 10
+- Git & GitHub
+- TryHackMe Labs
+
+---
+
+# 📂 Featured Projects
+
+## 🔐 Password Strength Checker v2.5
+
+A Flask-based password security application that evaluates password strength using multiple security rules and provides recommendations for creating stronger passwords.
+
+### Features
+
+- Password Strength Analysis
+- Password Entropy
+- Password Generator
+- Security Recommendations
+- Modern Responsive UI
+
+---
+
+## 🎣 Phishing Email Analyzer v2.1
+
+A cybersecurity tool that analyzes email content to detect phishing indicators by checking suspicious keywords, malicious URLs, and generating a phishing risk score.
+
+### Features
+
+- Suspicious Keyword Detection
+- URL Detection
+- Risk Score Calculation
+- Threat Classification
+- PDF Report Generation
+- Security Recommendations
+
+---
+
+## 🛡️ Cybersecurity Portfolio
+
+A modern personal portfolio developed with Flask to showcase cybersecurity skills, projects, certifications, and professional information.
+
+### Features
+
+- Responsive Design
+- Cybersecurity Theme
+- Resume Download
+- Project Showcase
+- Contact Section
+- GitHub Integration
+
+---
+
 # 📂 Project Structure
 
 ```text
@@ -83,45 +148,56 @@ Cyber-Portfolio/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-├── screenshots/
-│   ├── home.png
-│   ├── projects.png
-│   └── contact.png
+│
 ├── templates/
-└── static/
+│   └── index.html
+│
+├── static/
+│   ├── style.css
+│   ├── script.js
+│   ├── profile.jpg
+│   ├── password.png
+│   ├── phishing.png
+│   ├── resume.pdf
+│   └── favicon.ico
+│
+└── screenshots/
+    ├── home.png
+    ├── projects.png
+    └── contact.png
 ```
 
 ---
 
 # ⚙️ Installation
 
-### Clone the repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/SyedTaif/Cyber-Portfolio.git
 ```
 
-### Navigate to the project directory
+## Go to Project Folder
 
 ```bash
 cd Cyber-Portfolio
 ```
 
-### Install dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the application
+## Run Application
 
 ```bash
 python app.py
 ```
 
-### Open in your browser
+## Open Browser
 
-```text
+```
 http://127.0.0.1:5000
 ```
 
@@ -133,34 +209,28 @@ http://127.0.0.1:5000
 
 ---
 
-# 📂 Included Projects
-
-- 🔐 Password Strength Checker
-- 📧 Phishing Email Analyzer
-- 💼 Personal Portfolio
-- 🚀 Future Cybersecurity Projects
-
----
-
 # 🎯 Skills Highlighted
 
 - Python
 - Flask
+- HTML
+- CSS
+- JavaScript
 - Linux
 - Networking
 - Git & GitHub
-- HTML & CSS
 - Cybersecurity Fundamentals
 - OWASP Top 10
-- TryHackMe Labs
+- TryHackMe
 
 ---
 
 # 🔮 Future Improvements
 
-- Resume Download
+- GitHub Statistics
+- TryHackMe Badge Integration
+- Hack The Box Badge
 - Blog Section
-- Dark Mode
 - Contact Form
 - Project Filtering
 - Admin Dashboard
@@ -171,14 +241,27 @@ http://127.0.0.1:5000
 
 **Syed Taif Ahmed**
 
-🌐 GitHub: https://github.com/SyedTaif
+🌐 GitHub  
+https://github.com/SyedTaif
 
-💼 LinkedIn: https://www.linkedin.com/in/syed-taif-ahmed-ba8a683bb/
+💼 LinkedIn  
+https://www.linkedin.com/in/syed-taif-ahmed-ba8a683bb/
 
-🌍 Portfolio: https://portfolio-rho-topaz-x4owcm1yim.vercel.app/
+🌍 Portfolio  
+https://cyber-portfolio-ugxb.onrender.com
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future improvements.
+
+---
+
+<p align="center">
+
+Made with ❤️ using Python, Flask & Cybersecurity
+
+</p>
