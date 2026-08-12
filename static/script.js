@@ -11,7 +11,8 @@ const words = [
     "Cybersecurity Analyst",
     "SOC Analyst",
     "Application Security",
-    "Python Developer"
+    "Security Researcher",
+    "Security Automation"
 ];
 
 let wordIndex = 0;
